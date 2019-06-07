@@ -1,0 +1,16 @@
+div{
+  font-family: nunito;
+  background: #f0eded;
+  width:400px;
+  height: 500px;
+  margin: auto;
+
+}
+p{
+  color: #787878;
+
+  }
+
+p1 > span{
+  color: #787878;
+}
