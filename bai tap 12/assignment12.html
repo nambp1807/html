@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>BUI PHUONG NAM</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/assignment12.css">
+  <script type="text/javascript" src="jquery.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/all.css"/>
+</head>
+<body>
+<section class="container">
+  <div class="section1">
+    <div class="text_all">
+      <div class="text1">
+        <h3 class="h1">LONDON</h3>
+        <b>180 - 182 REGENT STREET.LONDON.W1B 5BT</b>
+        <p>
+          Lorem ipsum dolor sit amet, concetetur adipiscing esi
+          elit. Vivamus at arcu sem. Vestibumlum omare eleifendit
+          massa, nec tempor ordio. Fusce posuere nunc iaculis
+          ligula viverra iaculis. Aliquam erat volutpat.
+        </p>
+        <div class="lg1">
+          <p class="mlg1">VIEW DETAILS</p>
+        </div>
+      </div>
+      <div class="text2">
+        <h3 class="h1">NEW YORK</h3>
+        <b>109 Columbus Circle, New York, NY 10023</b>
+        <p>
+          Nunc non posuere nisl. Etiam finibus vel dui nec lobor-
+          tis. Aliquam egestas, sem quis condimentum venena-
+          tis, erat leo fermentum dolor, non sollicitudin massa mi
+          eu nibh. Nullam vitae aliquam dui, non sodales nisl.
+        </p>
+        <div class="lg1">
+          <p class="mlg1">VIEW DETAILS</p>
+        </div>
+      </div>
+      <div class="text3">
+        <h3 class="h1">PARIS</h3>
+        <b>2133 Rue Saint-Honoré, 75001 Paris</b>
+        <p>
+          Ut interdum fermentum blandit. Donec nec lacus egetit
+          mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml
+          auctor. Vestibulum ante ipsum primis in faucibus orcip
+          luctus et ultrices posuere cubilia curae cras ligula.
+        </p>
+        <div class="lg1">
+          <p class="mlg1">VIEW DETAILS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section2">
+    <div class="map" id="smap"></div>
+    <div class="text_map">
+      <div class="t1">
+        <h3 class="h1">LONDON</h3>
+        <b>180 - 182 REGENT STREET.LONDON.W1B 5BT</b>
+        <p>
+          Lorem ipsum dolor sit amet, concetetur adipiscing esi
+          elit. Vivamus at arcu sem. Vestibumlum omare eleifendit
+          massa, nec tempor ordio. Fusce posuere nunc iaculis
+          ligula viverra iaculis. Aliquam erat volutpat.
+        </p>
+        <p><i s class="fas fa-map-marker-alt"></i>  180 - 182 REGENT STREET.LONDON.W1B 5BT</p>
+        <p><i class="fas fa-phone-alt"></i>  0123-456-789</p>
+        <p><i class="fas fa-link"></i>  www.yourwebsite.com</p>
+        <p><i class="fas fa-envelope"></i>  support@yourwebsite.com</p>
+        <p><i class="far fa-clock"></i>  Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm </p>
+      </div>
+      <div class="ic">
+        <a class="icc"><i class="fab fa-facebook"></i></a>
+        <a class="icc"><i class="fab fa-twitter"></i></a>
+        <a class="icc"><i class="fab fa-instagram"></i></a>
+        <a class="icc"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  var map;
+  function initMap() {
+    var lat=0,long=0;
+    navigator.geolocation.getCurrentPosition(function (position) {
+      lat=position.coords.latitude;
+      long=position.coords.longitude;
+      map = new google.maps.Map(document.getElementById('smap'), {
+        center: {lat: lat, lng: long},
+        zoom: 16
+      });
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key&callback=initMap"
+        async defer></script>
+</body>
+</html>
