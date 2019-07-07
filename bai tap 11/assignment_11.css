@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+width: 2050px;
+  height: 2261px;
+}
+header{
+  float: left;
+  width: 100%;
+  height: 160px;
+
+}
+select.content{
+  float: left;
+  width: 100%;
+}
+footer{
+  float: left;
+  width: 100%;
+  background-color: #f8f8f8;
+  margin-top: 100px;
+}
+.top_link{
+  float: left;
+  height: 45px;
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  font-size: 13pt;
+}
+.currency{
+  float: left;
+  height: 45px;
+  width: 50%;
+  margin-top: 16px;
+}
+.text-currency{
+  margin-left: 440px;
+}
+.login{
+  float: left;
+  height: 45px;
+  width: 50%;
+}
+.login1{
+  width: 20%;
+  float: left;
+  margin-top: 16px;
+}
+.header_main{
+  width: 100%;
+  height: 115px;
+  float: left;
+  background-color: #f8f8f8;
+}
+.logo{
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin-top: 38px;
+  margin-left: 134px;
+}
+
+.text_header{
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin-left: -134px;
+}
+.nav1{
+  width: 20%;
+  height: auto;
+  float: left;
+  font-size: 13pt;
+  margin-top: 40px;
+}
+nav{
+  width: 100%;
+  height: 450px;
+  float: left;
+  background-image: url("../img/darken.jpg");
+}
+.content{
+  text-align: center;
+  font-size: 48pt;
+}
+section{
+  height: 900px;
+  width: 100%;
+  float: left;
+}
+.block1{
+  height: 370px;
+  width: 100%;
+  float: left;
+}
+.block1a{
+  width: 1200px;
+  height: 250px;
+  float: left;
+  margin-left: 440px;
+  margin-top: 60px;
+}
+.block1a1{
+  float: left;
+  width: 30%;
+  height: auto;
+  font-family: Montserrat;
+  font-size: 10pt;
+  color: #787878;
+  text-align: left;
+
+}
+.block1a2{
+  float: left;
+  width: 30%;
+  height: auto;
+  font-family: Montserrat;
+  font-size: 10pt;
+  color: #787878;
+  text-align: left;
+  margin-left: 20px;
+
+}
+.block1a3{
+  float: left;
+  width: 30%;
+  height:auto;
+  font-family: Montserrat;
+  font-size: 10pt;
+  color: #787878;
+  text-align: left;
+  margin-left: 20px;
+}
+.text1{
+  border: 2px #737373 solid;
+  width: 220px;
+  height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 23px;
+}
+.block2{
+  float: left;
+  width: 100%;
+  height: auto;
+  font-size: 13pt;
+  color: #787878;
+  background-color: #f8f8f8;
+  font-family: Montserrat;
+}
+.map{
+  float: left;
+  width: 65%;
+  height:530px;
+}
+.text_map{
+  float: left;
+  width: 35%;
+  height: 530px;
+
+}
+.t1{
+  width: 90%;
+  height: 50%;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 40px;
+  font-size: 10pt;
+  float: left;
+}
+.ic{
+  width: 70%;
+  height: 50%;
+  margin-left: 40px;
+  margin-top: 50px;
+  float: left;
+}
+.icc{
+  float: left;
+  width: 20%;
+  height: auto;
+  font-size: 30pt;
+}
+.ft{
+  width:100%;
+  height: 50%;
+  float: left;
+  margin-top: 30px;
+}
+.fc1{
+  width: 150px;
+  height: auto;
+  float: left;
+  margin-left: 350px;
+}
+.fc2{
+   width: 150px;
+   height: auto;
+   float: left;
+   margin-left: 160px;
+ }
+.fc3{
+  width: 150px;
+    height: auto;
+    float: left;
+    margin-left:160px;
+}
+.fc4{
+  width: 150px;
+  height: auto;
+  float: left;
+  margin-left: 160px;
+}
+.fc5{
+  width: 150px;
+  height: auto;
+  float: left;
+  margin-left: 160px;
+}
+.flogo{
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin-top: 30px;
+}
+.fclogo1{
+  width: 50%;
+  height: 40%;
+  float: left;
+  
+}
+.fclogo2{
+  width:50%;
+  height: 40%;
+  float: left;
+}
+.ft3{
+  height: 70px;
+  width: 100%;
+  float: left;
+  background-color: #333333;
+  color: white;
+  margin-top: 70px;
+}
+.ftc1{
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+}
+.ftc2{
+  width: 230px;
+  height: 100%;
+  float: left;
+  margin-top: 20px;
+}
+.ftc3{
+  width: 25%;
+  height: 100%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+

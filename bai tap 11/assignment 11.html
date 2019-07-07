@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Bui Phương Nam</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/assignment_11.css">
+  <script type="text/javascript" src="jquery.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/all.css"/>
+
+</head>
+<body>
+<header>
+  <div class="top_link">
+      <div class="currency" >
+        <p class="text-currency">Currency: CBP</p>
+      </div>
+      <div class="login">
+        <div class="login1">Register</div>
+        <div class="login1">Sign In</div>
+        <div class="login1">empty</div>
+      </div>
+  </div>
+  <div class="header_main">
+    <div class="logo">
+      <img src="img/anh_lab5.png"/>
+    </div>
+    <div class="text_header">
+      <div class="nav1">MENS</div>
+      <div class="nav1">WOMENS</div>
+      <div class="nav1">THE BRAND</div>
+      <div class="nav1">LOCAL STORE</div>
+      <div class="nav1">LOOK BOOK</div>
+    </div>
+  </div>
+</header>
+<nav>
+  <div  class="content">
+    <div class="content_section1">
+      <p style="margin-top: 140px"><b>THE</b> BRAND</p>
+      <p style="font-size: 30pt;margin-top: 45px">COMPANY SLOGAN GOES HERE</p>
+    </div>
+  </div>
+</nav>
+<section>
+    <div class="block_all">
+          <div class="block1">
+              <div class="block1a">
+                 <div class="block1a1">
+                      <h3  style="text-transform: uppercase">London</h3>
+                      <p  style="font-size: 11pt;text-transform: uppercase">180-182 Regent Street, London, W1B 5BT</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.</p>
+                      <div class="text1"><h3 style="margin-top: 15px">view details</h3></div>
+                 </div>
+                 <div class="block1a2">
+                      <h3  style="text-transform: uppercase">New York</h3>
+                      <p  style="font-size: 11pt; text-transform: uppercase">109 Columbus Circle, New York, NY 10023</p>
+                      <p>Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui, non sodales nisl.</p>
+                      <div class="text1"><h3 style="margin-top: 15px">view Details</h3></div>
+                 </div>
+                  <div class="block1a3">
+                      <h3  style="text-transform: uppercase">Paris</h3>
+                      <p  style="font-size: 11pt;text-transform: uppercase">2133 Rue Saint-Honoré, 75001 Paris</p>
+                      <p>Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.</p>
+                      <div class="text1"><h3 style="margin-top: 15px">view Details</h3></div>
+                  </div>
+              </div>
+          </div>
+          <div class="block2">
+            <div class="map" id="smap"></div>
+            <div class="text_map">
+              <div class="t1">
+                <h3 class="h1"  style="text-transform: uppercase">LONDON</h3><br/>
+                <b  style="font-size: 11pt;text-transform: uppercase">180 - 182 REGENT STREET.LONDON.W1B 5BT</b><br/>
+                <p style="font-size: 12pt"><br/>
+                  Lorem ipsum dolor sit amet, concetetur adipiscing esi
+                  elit. Vivamus at arcu sem. Vestibumlum omare eleifendit
+                  massa, nec tempor ordio. Fusce posuere nunc iaculis
+                  ligula viverra iaculis. Aliquam erat volutpat.
+                </p><br/>
+                <p><i class="fas fa-map-marker-alt"></i>  180 - 182 REGENT STREET.LONDON.W1B 5BT</p><br/>
+                <p><i class="fas fa-phone-alt"></i>  0123-456-789</p><br/>
+                <p><i class="fas fa-link"></i>  www.yourwebsite.com</p><br/>
+                <p><i class="fas fa-envelope"></i>  support@yourwebsite.com</p><br/>
+                <p><i class="far fa-clock"></i>  Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm </p><br/>
+              </div>
+              <div class="ic">
+                <a class="icc"><i class="fab fa-facebook"></i></a>
+                <a class="icc"><i class="fab fa-twitter"></i></a>
+                <a class="icc"><i class="fab fa-instagram"></i></a>
+                <a class="icc"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+<script>
+  var map;
+  function initMap() {
+    var lat=0,long=0;
+    navigator.geolocation.getCurrentPosition(function (position) {
+      lat=position.coords.latitude;
+      long=position.coords.longitude;
+      map = new google.maps.Map(document.getElementById('smap'), {
+        center: {lat: lat, lng: long},
+        zoom: 16
+      });
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key&callback=initMap"
+        async defer></script>
+<footer>
+  <div class="ft">
+    <div class="fc1">
+      <b class="fcb1">INFORMATION</b>
+      <p>
+        <a style="color: #00c8c8">The brand</a><br/>
+        Local stores<br/>
+        Customer service<br/>
+        Privacy & cookies<br/>
+        Site map<br/>
+      </p>
+    </div>
+    <div class="fc2">
+      <b>WHY BU FROM US</b>
+      <P>
+        Shipping & returns<br/>
+        Secure shopping<br/>
+        Testimonials<br/>
+        <a>Award winning</a><br/>
+        <a>Ethical trading</a><br/>
+      </P>
+    </div>
+    <div class="fc3">
+      <b>YOUR ACCOUNT</b>
+      <p>
+        Sign in<br/>
+        Register<br/>
+        View cart<br/>
+        View your lookbook<br/>
+        Track an order<br/>
+        Update information<br/>
+      </p>
+    </div>
+    <div class="fc4">
+      <b>LOOKBOOK</b>
+      <p>
+        Latest posts<br/>
+        Men’s lookbook<br/>
+        Women’s lookbook<br/>
+        Lookbooks RSS feed<br/>
+        View your lookbook<br/>
+        Delete your lookbook<br/>
+
+      </p>
+    </div>
+    <div class="fc5">
+      <b>CONTACT DETAILS</b>
+      <p>
+        Head Office: Avenue Fashion,<br/>
+        180-182 Regent Street, London.<br/>
+      </p>
+      <p>
+        Telephone: 0123-456-789<br/>
+        Email: support@yourwebsite.com<br/>
+      </p>
+    </div>
+  </div>
+  <div class="flogo">
+    <div class="fdoule_logo">
+      <div class="fclogo1">
+        <img style="margin-left: 460px" width="600px" height="200px" src="img/cuoi.jpg"/>
+      </div>
+      <div class="fclogo2">
+        <img width="600px" height="200px" src="img/cuoi2.jpg"/>
+      </div>
+    </div>
+  </div>
+  <div class="ft3">
+    <div class="ftcc3">
+      <div class="ftc1">
+        <p>© 2016 Avenue Fashion™</p>
+      </div>
+      <div class="ftc2">
+        <p>Design by RobbyDesigns.com</p>
+      </div>
+      <div class="ftc3">
+        <p>Dev by Loremipsum.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
