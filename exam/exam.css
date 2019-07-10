@@ -1,0 +1,48 @@
+.text2{
+   width: 700px;
+  height: 900px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #66512c;
+}
+.table{
+   width: 150px;
+  height: auto;
+  margin-left: 40px;
+  float: left;
+}
+.f_all{
+   width:350px;
+  height: auto;
+  float: left;
+  margin-top: 60px;
+  margin-left: -28px;
+}
+.t1{
+  width: 120px;
+  height: 50px;
+  border: 1px black solid;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+p{
+  margin-bottom: 5px;
+}
+.f1{
+  width: 300px;
+  height: 50px;
+  border: 1px black solid;
+}
+.f1a{
+  float: left;
+  margin-top: 7px;
+}
+.f1b{
+  float: left;
+  margin-top: 7px;
+}
+.f1c{
+  float: left;
+  margin-top: 7px;
+}
